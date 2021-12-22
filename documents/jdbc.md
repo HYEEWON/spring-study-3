@@ -58,9 +58,9 @@ db.password=pw
 
 ```xml
 <!-- JdbcTemplate 등록 -->
-	<bean class="org.springframework.jdbc.core.JdbcTemplate">
-		<property name="dataSource" ref="dataSource"/>
-	</bean>
+<bean class="org.springframework.jdbc.core.JdbcTemplate">
+	<property name="dataSource" ref="dataSource"/>
+</bean>
 ```
 
 ### DAO 작성
